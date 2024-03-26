@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Reward!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcc66;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff6633;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #cc3300;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Your reward is just a click away!</h1>
+        <p>Lets get it!</p>
+        <a href="final.html" onclick="claimReward()" class="button">Get Your Reward 🫴🏻</a>
+    </div>
+
+    <script>
+        function claimReward() {
+            alert("Remember, don't forget to thanks me after receiving your reward😘 !");
+        }
+    </script>
+</body>
+</html>
